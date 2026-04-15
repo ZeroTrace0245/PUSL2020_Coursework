@@ -1,0 +1,116 @@
+@model PUSL2020_Coursework.ViewModels.RegisterViewModel
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card mt-5">
+            <div class="card-header">
+                <h3 class="mb-0">Create an Account</h3>
+            </div>
+            <div class="card-body">
+                <form method="post" asp-action="Register">
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="FirstName" class="form-label">First Name</label>
+                                <input asp-for="FirstName" class="form-control" />
+                                <span asp-validation-for="FirstName" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="LastName" class="form-label">Last Name</label>
+                                <input asp-for="LastName" class="form-control" />
+                                <span asp-validation-for="LastName" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Email" class="form-label">Email Address</label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Department" class="form-label">Department (Optional)</label>
+                        <input asp-for="Department" class="form-control" />
+                        <span asp-validation-for="Department" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">User Type</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="UserType" id="userTypeStudent" value="Student" checked />
+                            <label class="form-check-label" for="userTypeStudent">
+                                Student
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="UserType" id="userTypeSupervisor" value="Supervisor" />
+                            <label class="form-check-label" for="userTypeSupervisor">
+                                Supervisor (Faculty)
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="mb-3" id="groupLeadSection" style="display: none;">
+                        <div class="form-check">
+                            <input asp-for="IsGroupLead" class="form-check-input" id="isGroupLeadCheckbox" />
+                            <label class="form-check-label" for="isGroupLeadCheckbox">
+                                I will be a group lead for this project
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="Password" class="form-label">Password</label>
+                                <input asp-for="Password" class="form-control" />
+                                <small class="text-muted">Min 8 chars, uppercase, lowercase, digit, special char</small>
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="ConfirmPassword" class="form-label">Confirm Password</label>
+                                <input asp-for="ConfirmPassword" class="form-control" />
+                                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100">Register</button>
+                </form>
+
+                <hr>
+
+                <p class="text-center">
+                    <a href="/Account/Login">Already have an account? Login here</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        document.getElementById('userTypeStudent').addEventListener('change', function () {
+            document.getElementById('groupLeadSection').style.display = this.checked ? 'block' : 'none';
+        });
+
+        document.getElementById('userTypeSupervisor').addEventListener('change', function () {
+            document.getElementById('groupLeadSection').style.display = this.checked ? 'none' : 'block';
+        });
+    </script>
+}
