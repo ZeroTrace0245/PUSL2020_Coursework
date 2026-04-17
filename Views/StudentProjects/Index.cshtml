@@ -1,0 +1,64 @@
+@model List<PUSL2020_Coursework.ViewModels.ProjectDetailViewModel>
+
+@{
+    ViewData["Title"] = "My Projects";
+}
+
+<div class="container">
+    <div class="row mb-4">
+        <div class="col-md-8">
+            <h2>My Projects</h2>
+        </div>
+        <div class="col-md-4 text-end">
+            <a href="/StudentProjects/Create" class="btn btn-primary">Submit New Project</a>
+        </div>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info">
+            <h5>No projects submitted yet</h5>
+            <p>Start by submitting your first research proposal.</p>
+            <a href="/StudentProjects/Create" class="btn btn-primary">Submit Project</a>
+        </div>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var project in Model)
+            {
+                <div class="col-md-6 mb-4">
+                    <div class="card project-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title project-card-title">@project.Title</h5>
+                            <p class="card-text">
+                                <small class="text-muted">@project.ResearchArea</small>
+                            </p>
+                            <p class="card-text">
+                                @project.Abstract.Substring(0, Math.Min(100, project.Abstract.Length))...
+                            </p>
+                            <div class="mb-2">
+                                <span class="badge badge-status @("status-" + project.Status.ToLower())">
+                                    @project.Status
+                                </span>
+                            </div>
+                            <small class="text-muted d-block mb-3">
+                                Submitted: @project.SubmittedDate.ToString("dd/MM/yyyy")
+                            </small>
+                            <div class="mb-2">
+                                <small class="text-muted">
+                                    <strong>Matches:</strong> @project.ConfirmedMatches / @project.TotalMatches
+                                </small>
+                            </div>
+                            <a href="/StudentProjects/Details/@project.Id" class="btn btn-sm btn-primary">View Details</a>
+                            @if (project.Status == "Pending" || project.Status == "UnderReview")
+                            {
+                                <a href="/StudentProjects/Edit/@project.Id" class="btn btn-sm btn-outline-secondary">Edit</a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

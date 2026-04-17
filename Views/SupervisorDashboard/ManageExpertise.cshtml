@@ -1,0 +1,52 @@
+@{
+    ViewData["Title"] = "Manage Expertise";
+    var allResearchAreas = (List<PUSL2020_Coursework.Models.ResearchArea>)ViewBag.AllResearchAreas;
+    var selectedAreaIds = (List<int>)ViewBag.SelectedAreaIds;
+    var supervisorId = (int)ViewBag.SupervisorId;
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card mt-4">
+            <div class="card-header">
+                <h3 class="mb-0">Manage Your Expertise Areas</h3>
+            </div>
+            <div class="card-body">
+                <form method="post" asp-action="ManageExpertise">
+                    @Html.AntiForgeryToken()
+
+                    <input type="hidden" name="SupervisorId" value="@supervisorId" />
+
+                    <p class="text-muted">Select the research areas where you are interested in supervising projects. You will only see projects in your selected areas.</p>
+
+                    <div class="row">
+                        @foreach (var area in allResearchAreas)
+                        {
+                            <div class="col-md-6 mb-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="SelectedResearchAreaIds" 
+                           value="@area.Id" id="area_@area.Id" 
+                           checked="@selectedAreaIds.Contains(area.Id)" />
+                                    <label class="form-check-label" for="area_@area.Id">
+                                        <strong>@area.Name</strong>
+                                        @if (!string.IsNullOrEmpty(area.Description))
+                                        {
+                                            <br /><small class="text-muted">@area.Description</small>
+                                        }
+                                    </label>
+                                </div>
+                            </div>
+                        }
+                    </div>
+
+                    <hr />
+
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <a href="/SupervisorDashboard/Index" class="btn btn-outline-secondary">Cancel</a>
+                        <button type="submit" class="btn btn-primary">Save Expertise Areas</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

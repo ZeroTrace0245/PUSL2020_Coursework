@@ -1,0 +1,88 @@
+@model List<PUSL2020_Coursework.Models.ResearchArea>
+
+@{
+    ViewData["Title"] = "Manage Research Areas";
+}
+
+<div class="container">
+    <h2>Manage Research Areas</h2>
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">Create New Research Area</h5>
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-action="CreateResearchArea">
+                        @Html.AntiForgeryToken()
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Area Name</label>
+                            <input type="text" class="form-control" id="name" name="Name" required />
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="description" class="form-label">Description</label>
+                            <textarea class="form-control" id="description" name="Description" rows="3"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Create Area</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">Existing Research Areas</h5>
+                </div>
+                <div class="card-body">
+                    @if (!Model.Any())
+                    {
+                        <p class="text-muted">No research areas created yet.</p>
+                    }
+                    else
+                    {
+                        <div class="list-group">
+                            @foreach (var area in Model)
+                            {
+                                <div class="list-group-item">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <h6>@area.Name</h6>
+                                            @if (!string.IsNullOrEmpty(area.Description))
+                                            {
+                                                <small class="text-muted">@area.Description</small>
+                                            }
+                                            <div class="mt-2">
+                                                @if (area.IsActive)
+                                                {
+                                                    <span class="badge bg-success">Active</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge bg-secondary">Inactive</span>
+                                                }
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 text-end">
+                                            @if (area.IsActive)
+                                            {
+                                                <form method="post" asp-action="DeactivateResearchArea" asp-route-id="@area.Id" style="display:inline;">
+                                                    @Html.AntiForgeryToken()
+                                                    <button type="submit" class="btn btn-sm btn-warning">Deactivate</button>
+                                                </form>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,108 @@
+@model PUSL2020_Coursework.ViewModels.AllocationDashboardViewModel
+
+@{
+    ViewData["Title"] = "Module Leader Dashboard";
+    var stats = (Dictionary<string, int>)ViewBag.Stats;
+}
+
+<div class="container">
+    <h2>Module Leader Dashboard</h2>
+
+    <div class="row mt-4">
+        <div class="col-md-3">
+            <div class="dashboard-stat">
+                <div class="dashboard-stat-value">@Model.TotalProjects</div>
+                <div class="dashboard-stat-label">Total Projects</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="dashboard-stat">
+                <div class="dashboard-stat-value">@Model.PendingProjects</div>
+                <div class="dashboard-stat-label">Pending Projects</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="dashboard-stat">
+                <div class="dashboard-stat-value">@Model.MatchedProjects</div>
+                <div class="dashboard-stat-label">Matched Projects</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="dashboard-stat">
+                <div class="dashboard-stat-value">@Model.ConfirmedMatches</div>
+                <div class="dashboard-stat-label">Confirmed Matches</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">All Allocations</h5>
+                    <p class="card-text">View and manage all project-supervisor matches.</p>
+                    <a href="/ModuleLeader/AllAllocations" class="btn btn-primary">View</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Manage Users</h5>
+                    <p class="card-text">Manage supervisor and student accounts.</p>
+                    <a href="/ModuleLeader/ManageUsers" class="btn btn-primary">Manage</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Research Areas</h5>
+                    <p class="card-text">Define and manage research area categories.</p>
+                    <a href="/ModuleLeader/ManageResearchAreas" class="btn btn-primary">Manage</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @if (Model.RecentMatches.Any())
+    {
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">Recent Confirmed Matches</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Project</th>
+                                        <th>Student</th>
+                                        <th>Supervisor</th>
+                                        <th>Confirmed Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var match in Model.RecentMatches.Take(5))
+                                    {
+                                        <tr>
+                                            <td>@match.ProjectTitle</td>
+                                            <td>@match.StudentName</td>
+                                            <td>@match.SupervisorName</td>
+                                            <td>@match.ConfirmedDate?.ToString("dd/MM/yyyy")</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

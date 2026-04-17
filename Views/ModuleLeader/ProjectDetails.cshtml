@@ -1,0 +1,90 @@
+@model PUSL2020_Coursework.ViewModels.ProjectDetailViewModel
+
+@{
+    ViewData["Title"] = "Project Details";
+    var matches = (List<PUSL2020_Coursework.Models.Match>)ViewBag.Matches;
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card mt-4">
+                <div class="card-header">
+                    <h3 class="mb-0">@Model.Title</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <p>
+                                <strong>Status:</strong>
+                                <span class="badge badge-status @("status-" + Model.Status.ToLower())">
+                                    @Model.Status
+                                </span>
+                            </p>
+                            <p>
+                                <strong>Research Area:</strong> @Model.ResearchArea
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>
+                                <strong>Student:</strong> @Model.StudentName
+                            </p>
+                            <p>
+                                <strong>Email:</strong> <a href="mailto:@Model.StudentEmail">@Model.StudentEmail</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <h5>Abstract</h5>
+                        <p>@Model.Abstract</p>
+                    </div>
+
+                    <div class="mb-4">
+                        <h5>Technical Stack</h5>
+                        <p>@Model.TechnicalStack</p>
+                    </div>
+
+                    <div class="mb-4">
+                        <small class="text-muted">
+                            <strong>Submitted:</strong> @Model.SubmittedDate.ToString("dd/MM/yyyy HH:mm")
+                        </small>
+                    </div>
+
+                    <a href="/ModuleLeader/AllAllocations" class="btn btn-secondary">Back to Allocations</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card mt-4">
+                <div class="card-header">
+                    <h5 class="mb-0">Supervisor Interests</h5>
+                </div>
+                <div class="card-body">
+                    @if (!matches.Any())
+                    {
+                        <p class="text-muted">No supervisor interests yet.</p>
+                    }
+                    else
+                    {
+                        <div class="list-group">
+                            @foreach (var match in matches)
+                            {
+                                <div class="list-group-item">
+                                    <h6>@match.SupervisorProfile?.User?.FirstName @match.SupervisorProfile?.User?.LastName</h6>
+                                    <small>@match.SupervisorProfile?.User?.Email</small>
+                                    <div class="mt-2">
+                                        <span class="badge @(match.Status == PUSL2020_Coursework.Models.MatchStatus.Confirmed ? "bg-success" : match.Status == PUSL2020_Coursework.Models.MatchStatus.Interested ? "bg-info" : "bg-danger")">
+                                            @match.Status
+                                        </span>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
