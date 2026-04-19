@@ -1,0 +1,790 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\quick_fix.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:quick_fix.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\ef_simple_fix.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:ef_simple_fix.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\ef_nuclear_fix.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:ef_nuclear_fix.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\do_this_now.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:do_this_now.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\ef_quick_fix.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:ef_quick_fix.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\ef_version_fix.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:ef_version_fix.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\registration_fix.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:registration_fix.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\controllers\\moduleleadercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:controllers\\moduleleadercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\controllers\\studentprojectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:controllers\\studentprojectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\final_summary.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:final_summary.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\file_index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:file_index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\design_system.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:design_system.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\project_summary.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:project_summary.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\setup_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:setup_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\quick_reference.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:quick_reference.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\deployment_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:deployment_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\implementation_status.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:implementation_status.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\views\\moduleleader\\projectdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:views\\moduleleader\\projectdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\views\\moduleleader\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:views\\moduleleader\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\views\\moduleleader\\manageresearchareas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:views\\moduleleader\\manageresearchareas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\views\\moduleleader\\allallocations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:views\\moduleleader\\allallocations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\views\\moduleleader\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:views\\moduleleader\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\views\\supervisordashboard\\mymatches.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:views\\supervisordashboard\\mymatches.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\views\\supervisordashboard\\manageexpertise.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:views\\supervisordashboard\\manageexpertise.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\views\\supervisordashboard\\browseprojects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:views\\supervisordashboard\\browseprojects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\views\\supervisordashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:views\\supervisordashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\database_setup.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:database_setup.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\views\\studentprojects\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:views\\studentprojects\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\views\\studentprojects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:views\\studentprojects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\views\\studentprojects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:views\\studentprojects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\viewmodels\\viewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:viewmodels\\viewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\data\\pasdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:data\\pasdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\pusl2020_coursework.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:pusl2020_coursework.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|e:\\program files\\microsoft visual studio\\18\\repo\\pusl2020_coursework\\controllers\\supervisordashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F5B425-235B-6B0C-BDBB-964DEED0CEC2}|PUSL2020_Coursework.csproj|solutionrelative:controllers\\supervisordashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EF_NUCLEAR_FIX.md",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\EF_NUCLEAR_FIX.md",
+              "RelativeDocumentMoniker": "EF_NUCLEAR_FIX.md",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\EF_NUCLEAR_FIX.md",
+              "RelativeToolTip": "EF_NUCLEAR_FIX.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAP4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-15T15:26:53.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DO_THIS_NOW.md",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\DO_THIS_NOW.md",
+              "RelativeDocumentMoniker": "DO_THIS_NOW.md",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\DO_THIS_NOW.md",
+              "RelativeToolTip": "DO_THIS_NOW.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-15T15:25:06.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EF_QUICK_FIX.md",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\EF_QUICK_FIX.md",
+              "RelativeDocumentMoniker": "EF_QUICK_FIX.md",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\EF_QUICK_FIX.md",
+              "RelativeToolTip": "EF_QUICK_FIX.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-15T15:24:57.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EF_VERSION_FIX.md",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\EF_VERSION_FIX.md",
+              "RelativeDocumentMoniker": "EF_VERSION_FIX.md",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\EF_VERSION_FIX.md",
+              "RelativeToolTip": "EF_VERSION_FIX.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-15T15:24:51.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QUICK_FIX.md",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\QUICK_FIX.md",
+              "RelativeDocumentMoniker": "QUICK_FIX.md",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\QUICK_FIX.md",
+              "RelativeToolTip": "QUICK_FIX.md",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-15T15:11:56.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "REGISTRATION_FIX.md",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\REGISTRATION_FIX.md",
+              "RelativeDocumentMoniker": "REGISTRATION_FIX.md",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\REGISTRATION_FIX.md",
+              "RelativeToolTip": "REGISTRATION_FIX.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-15T15:11:39.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\AccessDenied.cshtml",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "Views\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T14:49:05.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T14:48:56.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwCsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T14:42:10.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EF_SIMPLE_FIX.md",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\EF_SIMPLE_FIX.md",
+              "RelativeDocumentMoniker": "EF_SIMPLE_FIX.md",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\EF_SIMPLE_FIX.md",
+              "RelativeToolTip": "EF_SIMPLE_FIX.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-15T15:27:01.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T14:48:51.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T14:48:17.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAANkAAAAAAAAAAIBJwHEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T14:48:12.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAMkBAAAAAAAAAIBJwHYCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T14:47:56.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAABRwMQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T14:47:40.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ModuleLeaderController.cs",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Controllers\\ModuleLeaderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ModuleLeaderController.cs",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Controllers\\ModuleLeaderController.cs",
+              "RelativeToolTip": "Controllers\\ModuleLeaderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T14:47:29.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StudentProjectsController.cs",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Controllers\\StudentProjectsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentProjectsController.cs",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Controllers\\StudentProjectsController.cs",
+              "RelativeToolTip": "Controllers\\StudentProjectsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T14:42:54.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FINAL_SUMMARY.md",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\FINAL_SUMMARY.md",
+              "RelativeDocumentMoniker": "FINAL_SUMMARY.md",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\FINAL_SUMMARY.md",
+              "RelativeToolTip": "FINAL_SUMMARY.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-15T15:05:21.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FILE_INDEX.md",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\FILE_INDEX.md",
+              "RelativeDocumentMoniker": "FILE_INDEX.md",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\FILE_INDEX.md",
+              "RelativeToolTip": "FILE_INDEX.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-15T15:04:44.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DESIGN_SYSTEM.md",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\DESIGN_SYSTEM.md",
+              "RelativeDocumentMoniker": "DESIGN_SYSTEM.md",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\DESIGN_SYSTEM.md",
+              "RelativeToolTip": "DESIGN_SYSTEM.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-15T15:04:01.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PROJECT_SUMMARY.md",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\PROJECT_SUMMARY.md",
+              "RelativeDocumentMoniker": "PROJECT_SUMMARY.md",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\PROJECT_SUMMARY.md",
+              "RelativeToolTip": "PROJECT_SUMMARY.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-15T15:03:24.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SETUP_GUIDE.md",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\SETUP_GUIDE.md",
+              "RelativeDocumentMoniker": "SETUP_GUIDE.md",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\SETUP_GUIDE.md",
+              "RelativeToolTip": "SETUP_GUIDE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-15T15:02:53.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "QUICK_REFERENCE.md",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\QUICK_REFERENCE.md",
+              "RelativeDocumentMoniker": "QUICK_REFERENCE.md",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\QUICK_REFERENCE.md",
+              "RelativeToolTip": "QUICK_REFERENCE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-15T14:56:08.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DEPLOYMENT_GUIDE.md",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\DEPLOYMENT_GUIDE.md",
+              "RelativeDocumentMoniker": "DEPLOYMENT_GUIDE.md",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\DEPLOYMENT_GUIDE.md",
+              "RelativeToolTip": "DEPLOYMENT_GUIDE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-15T14:55:45.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IMPLEMENTATION_STATUS.md",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\IMPLEMENTATION_STATUS.md",
+              "RelativeDocumentMoniker": "IMPLEMENTATION_STATUS.md",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\IMPLEMENTATION_STATUS.md",
+              "RelativeToolTip": "IMPLEMENTATION_STATUS.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-15T14:55:21.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "README.md",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-15T14:54:51.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProjectDetails.cshtml",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\ModuleLeader\\ProjectDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\ModuleLeader\\ProjectDetails.cshtml",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\ModuleLeader\\ProjectDetails.cshtml",
+              "RelativeToolTip": "Views\\ModuleLeader\\ProjectDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T14:54:27.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ManageUsers.cshtml",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\ModuleLeader\\ManageUsers.cshtml",
+              "RelativeDocumentMoniker": "Views\\ModuleLeader\\ManageUsers.cshtml",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\ModuleLeader\\ManageUsers.cshtml",
+              "RelativeToolTip": "Views\\ModuleLeader\\ManageUsers.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T14:54:17.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ManageResearchAreas.cshtml",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\ModuleLeader\\ManageResearchAreas.cshtml",
+              "RelativeDocumentMoniker": "Views\\ModuleLeader\\ManageResearchAreas.cshtml",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\ModuleLeader\\ManageResearchAreas.cshtml",
+              "RelativeToolTip": "Views\\ModuleLeader\\ManageResearchAreas.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T14:54:09.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AllAllocations.cshtml",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\ModuleLeader\\AllAllocations.cshtml",
+              "RelativeDocumentMoniker": "Views\\ModuleLeader\\AllAllocations.cshtml",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\ModuleLeader\\AllAllocations.cshtml",
+              "RelativeToolTip": "Views\\ModuleLeader\\AllAllocations.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T14:54:03.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\ModuleLeader\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\ModuleLeader\\Dashboard.cshtml",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\ModuleLeader\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\ModuleLeader\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T14:53:51.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MyMatches.cshtml",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\SupervisorDashboard\\MyMatches.cshtml",
+              "RelativeDocumentMoniker": "Views\\SupervisorDashboard\\MyMatches.cshtml",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\SupervisorDashboard\\MyMatches.cshtml",
+              "RelativeToolTip": "Views\\SupervisorDashboard\\MyMatches.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T14:53:42.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ManageExpertise.cshtml",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\SupervisorDashboard\\ManageExpertise.cshtml",
+              "RelativeDocumentMoniker": "Views\\SupervisorDashboard\\ManageExpertise.cshtml",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\SupervisorDashboard\\ManageExpertise.cshtml",
+              "RelativeToolTip": "Views\\SupervisorDashboard\\ManageExpertise.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T14:53:35.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "BrowseProjects.cshtml",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\SupervisorDashboard\\BrowseProjects.cshtml",
+              "RelativeDocumentMoniker": "Views\\SupervisorDashboard\\BrowseProjects.cshtml",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\SupervisorDashboard\\BrowseProjects.cshtml",
+              "RelativeToolTip": "Views\\SupervisorDashboard\\BrowseProjects.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T14:53:29.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\SupervisorDashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\SupervisorDashboard\\Index.cshtml",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\SupervisorDashboard\\Index.cshtml",
+              "RelativeToolTip": "Views\\SupervisorDashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T14:53:16.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DATABASE_SETUP.md",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\DATABASE_SETUP.md",
+              "RelativeDocumentMoniker": "DATABASE_SETUP.md",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\DATABASE_SETUP.md",
+              "RelativeToolTip": "DATABASE_SETUP.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-15T14:53:08.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T14:52:30.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\StudentProjects\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\StudentProjects\\Details.cshtml",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\StudentProjects\\Details.cshtml",
+              "RelativeToolTip": "Views\\StudentProjects\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T14:51:44.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\StudentProjects\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\StudentProjects\\Create.cshtml",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\StudentProjects\\Create.cshtml",
+              "RelativeToolTip": "Views\\StudentProjects\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T14:50:40.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\StudentProjects\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\StudentProjects\\Index.cshtml",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Views\\StudentProjects\\Index.cshtml",
+              "RelativeToolTip": "Views\\StudentProjects\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T14:50:28.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ViewModels.cs",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\ViewModels\\ViewModels.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ViewModels.cs",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\ViewModels\\ViewModels.cs",
+              "RelativeToolTip": "ViewModels\\ViewModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T14:42:41.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAABBwM4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T14:42:31.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T14:42:22.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-15T14:42:16.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "PASDbContext.cs",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Data\\PASDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\PASDbContext.cs",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Data\\PASDbContext.cs",
+              "RelativeToolTip": "Data\\PASDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T14:41:52.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T14:41:40.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PUSL2020_Coursework.csproj",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\PUSL2020_Coursework.csproj",
+              "RelativeDocumentMoniker": "PUSL2020_Coursework.csproj",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\PUSL2020_Coursework.csproj",
+              "RelativeToolTip": "PUSL2020_Coursework.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-15T14:41:27.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "SupervisorDashboardController.cs",
+              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Controllers\\SupervisorDashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SupervisorDashboardController.cs",
+              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Repo\\PUSL2020_Coursework\\Controllers\\SupervisorDashboardController.cs",
+              "RelativeToolTip": "Controllers\\SupervisorDashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T14:43:21.852Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
