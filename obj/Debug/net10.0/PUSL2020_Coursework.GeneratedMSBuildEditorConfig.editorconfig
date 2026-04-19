@@ -1,0 +1,115 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFramework = net10.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.RootNamespace = PUSL2020_Coursework
+build_property.RootNamespace = PUSL2020_Coursework
+build_property.ProjectDir = E:\Program Files\Microsoft Visual Studio\18\Repo\PUSL2020_Coursework\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 10.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Program Files\Microsoft Visual Studio\18\Repo\PUSL2020_Coursework
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[E:/Program Files/Microsoft Visual Studio/18/Repo/PUSL2020_Coursework/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files/Microsoft Visual Studio/18/Repo/PUSL2020_Coursework/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files/Microsoft Visual Studio/18/Repo/PUSL2020_Coursework/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files/Microsoft Visual Studio/18/Repo/PUSL2020_Coursework/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files/Microsoft Visual Studio/18/Repo/PUSL2020_Coursework/Views/ModuleLeader/AllAllocations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kdWxlTGVhZGVyXEFsbEFsbG9jYXRpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files/Microsoft Visual Studio/18/Repo/PUSL2020_Coursework/Views/ModuleLeader/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kdWxlTGVhZGVyXERhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files/Microsoft Visual Studio/18/Repo/PUSL2020_Coursework/Views/ModuleLeader/ManageResearchAreas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kdWxlTGVhZGVyXE1hbmFnZVJlc2VhcmNoQXJlYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files/Microsoft Visual Studio/18/Repo/PUSL2020_Coursework/Views/ModuleLeader/ManageUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kdWxlTGVhZGVyXE1hbmFnZVVzZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files/Microsoft Visual Studio/18/Repo/PUSL2020_Coursework/Views/ModuleLeader/ProjectDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kdWxlTGVhZGVyXFByb2plY3REZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files/Microsoft Visual Studio/18/Repo/PUSL2020_Coursework/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files/Microsoft Visual Studio/18/Repo/PUSL2020_Coursework/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files/Microsoft Visual Studio/18/Repo/PUSL2020_Coursework/Views/StudentProjects/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFByb2plY3RzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files/Microsoft Visual Studio/18/Repo/PUSL2020_Coursework/Views/StudentProjects/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFByb2plY3RzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files/Microsoft Visual Studio/18/Repo/PUSL2020_Coursework/Views/StudentProjects/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFByb2plY3RzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files/Microsoft Visual Studio/18/Repo/PUSL2020_Coursework/Views/StudentProjects/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFByb2plY3RzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files/Microsoft Visual Studio/18/Repo/PUSL2020_Coursework/Views/SupervisorDashboard/BrowseProjects.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJ2aXNvckRhc2hib2FyZFxCcm93c2VQcm9qZWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files/Microsoft Visual Studio/18/Repo/PUSL2020_Coursework/Views/SupervisorDashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJ2aXNvckRhc2hib2FyZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files/Microsoft Visual Studio/18/Repo/PUSL2020_Coursework/Views/SupervisorDashboard/ManageExpertise.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJ2aXNvckRhc2hib2FyZFxNYW5hZ2VFeHBlcnRpc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files/Microsoft Visual Studio/18/Repo/PUSL2020_Coursework/Views/SupervisorDashboard/MyMatches.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJ2aXNvckRhc2hib2FyZFxNeU1hdGNoZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files/Microsoft Visual Studio/18/Repo/PUSL2020_Coursework/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files/Microsoft Visual Studio/18/Repo/PUSL2020_Coursework/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

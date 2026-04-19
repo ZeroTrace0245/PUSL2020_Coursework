@@ -1,0 +1,87 @@
+@model List<PUSL2020_Coursework.ViewModels.MatchDetailViewModel>
+
+@{
+    ViewData["Title"] = "My Matches";
+}
+
+<div class="container">
+    <h2>My Matches</h2>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info mt-4">
+            <p>You haven't expressed interest in any projects yet.</p>
+            <a href="/SupervisorDashboard/BrowseProjects" class="btn btn-primary">Browse Projects</a>
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive mt-4">
+            <table class="table table-hover">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Project Title</th>
+                        <th>Student Name</th>
+                        <th>Status</th>
+                        <th>Date</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var match in Model)
+                    {
+                        <tr>
+                            <td>
+                                <strong>@match.ProjectTitle</strong>
+                            </td>
+                            <td>
+                                @if (match.Status == "Confirmed")
+                                {
+                                    <span>@match.StudentName</span>
+                                }
+                                else
+                                {
+                                    <span class="text-muted">[Anonymous]</span>
+                                }
+                            </td>
+                            <td>
+                                <span class="badge @(match.Status == "Confirmed" ? "bg-success" : match.Status == "Interested" ? "bg-info" : "bg-danger")">
+                                    @match.Status
+                                </span>
+                            </td>
+                            <td>
+                                @match.CreatedDate.ToString("dd/MM/yyyy")
+                            </td>
+                            <td>
+                                @if (match.Status == "Interested")
+                                {
+                                    <form method="post" asp-action="ConfirmMatch" asp-route-matchId="@match.MatchId" style="display:inline;">
+                                        @Html.AntiForgeryToken()
+                                        <button type="submit" class="btn btn-sm btn-success">Confirm</button>
+                                    </form>
+                                    <form method="post" asp-action="RejectInterest" asp-route-matchId="@match.MatchId" style="display:inline;">
+                                        @Html.AntiForgeryToken()
+                                        <button type="submit" class="btn btn-sm btn-danger">Reject</button>
+                                    </form>
+                                }
+                                else if (match.Status == "Confirmed")
+                                {
+                                    <a href="mailto:@match.StudentEmail" class="btn btn-sm btn-primary">Email Student</a>
+                                }
+                            </td>
+                        </tr>
+                        @if (match.Status == "Confirmed")
+                        {
+                            <tr class="table-info">
+                                <td colspan="5">
+                                    <strong>Student Email:</strong> <a href="mailto:@match.StudentEmail">@match.StudentEmail</a><br />
+                                    <strong>Confirmed:</strong> @match.ConfirmedDate?.ToString("dd/MM/yyyy HH:mm")
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>

@@ -1,0 +1,70 @@
+@model PUSL2020_Coursework.ViewModels.ProjectCreateViewModel
+
+@{
+    ViewData["Title"] = "Submit Project";
+    var researchAreas = (List<PUSL2020_Coursework.Models.ResearchArea>)ViewBag.ResearchAreas;
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card mt-4">
+            <div class="card-header">
+                <h3 class="mb-0">Submit New Research Project</h3>
+            </div>
+            <div class="card-body">
+                <form method="post" asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="Title" class="form-label">Project Title</label>
+                        <input asp-for="Title" class="form-control" placeholder="Enter your project title" />
+                        <span asp-validation-for="Title" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Abstract" class="form-label">Abstract</label>
+                        <textarea asp-for="Abstract" class="form-control" rows="5" placeholder="Provide a detailed abstract of your project (max 2000 characters)"></textarea>
+                        <span asp-validation-for="Abstract" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="TechnicalStack" class="form-label">Technical Stack</label>
+                        <input asp-for="TechnicalStack" class="form-control" placeholder="e.g., Python, Django, PostgreSQL, Docker" />
+                        <span asp-validation-for="TechnicalStack" class="text-danger"></span>
+                        <small class="text-muted">List the programming languages, frameworks, and tools you'll use</small>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="ResearchAreaId" class="form-label">Research Area</label>
+                        <select asp-for="ResearchAreaId" class="form-select">
+                            <option value="">-- Select a research area --</option>
+                            @foreach (var area in researchAreas)
+                            {
+                                <option value="@area.Id">@area.Name</option>
+                            }
+                        </select>
+                        <span asp-validation-for="ResearchAreaId" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <input asp-for="IsGroupProject" class="form-check-input" />
+                        <label asp-for="IsGroupProject" class="form-check-label">
+                            This is a group project
+                        </label>
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary btn-lg">Submit Project</button>
+                        <a href="/StudentProjects/Index" class="btn btn-outline-secondary">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

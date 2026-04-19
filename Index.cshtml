@@ -1,0 +1,87 @@
+@{
+    ViewData["Title"] = "Supervisor Dashboard";
+    var expertiseAreas = ViewBag.ExpertiseAreas as IEnumerable<PUSL2020_Coursework.Models.SupervisorExpertise>
+        ?? Enumerable.Empty<PUSL2020_Coursework.Models.SupervisorExpertise>();
+    var matchedProjects = (int)ViewBag.MatchedProjects;
+    var currentProjectCount = (int)ViewBag.CurrentProjectCount;
+}
+
+<div class="container">
+    <h2>Supervisor Dashboard</h2>
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <div class="dashboard-stat">
+                        <div class="dashboard-stat-value">@matchedProjects</div>
+                        <div class="dashboard-stat-label">Matched Projects</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <div class="dashboard-stat">
+                        <div class="dashboard-stat-value">@currentProjectCount</div>
+                        <div class="dashboard-stat-label">Current Supervisions</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Browse Projects</h5>
+                    <p class="card-text">Explore anonymous projects matching your expertise areas.</p>
+                    <a href="/SupervisorDashboard/BrowseProjects" class="btn btn-primary">Browse</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">My Matches</h5>
+                    <p class="card-text">View your project interests and confirmations.</p>
+                    <a href="/SupervisorDashboard/MyMatches" class="btn btn-primary">View</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Expertise Areas</h5>
+                    <p class="card-text">Manage your research area preferences.</p>
+                    <a href="/SupervisorDashboard/ManageExpertise" class="btn btn-primary">Manage</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @if (expertiseAreas.Any())
+    {
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">Your Expertise Areas</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex flex-wrap gap-2">
+                            @foreach (var expertise in expertiseAreas)
+                            {
+                                <span class="badge bg-secondary" style="font-size: 0.9rem; padding: 0.5rem;">
+                                    @expertise.ResearchArea?.Name
+                                </span>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

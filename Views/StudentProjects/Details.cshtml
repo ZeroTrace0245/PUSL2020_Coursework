@@ -1,0 +1,101 @@
+@model PUSL2020_Coursework.ViewModels.ProjectDetailViewModel
+
+@{
+    ViewData["Title"] = "Project Details";
+}
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card mt-4">
+            <div class="card-header">
+                <h3 class="mb-0">@Model.Title</h3>
+            </div>
+            <div class="card-body">
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <p>
+                            <strong>Status:</strong>
+                            <span class="badge badge-status @("status-" + Model.Status.ToLower())">
+                                @Model.Status
+                            </span>
+                        </p>
+                        <p>
+                            <strong>Research Area:</strong> @Model.ResearchArea
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            <strong>Submitted:</strong> @Model.SubmittedDate.ToString("dd/MM/yyyy HH:mm")
+                        </p>
+                        <p>
+                            <strong>Matches:</strong> @Model.ConfirmedMatches / @Model.TotalMatches
+                        </p>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <h5>Abstract</h5>
+                    <p>@Model.Abstract</p>
+                </div>
+
+                <div class="mb-4">
+                    <h5>Technical Stack</h5>
+                    <p>@Model.TechnicalStack</p>
+                </div>
+
+                @if (!string.IsNullOrEmpty(Model.SupervisorEmail) && Model.Status == "Matched")
+                {
+                    <div class="alert alert-success">
+                        <h5>✓ Match Confirmed!</h5>
+                        <p>
+                            <strong>Supervisor:</strong> @Model.SupervisorName<br />
+                            <strong>Email:</strong> <a href="mailto:@Model.SupervisorEmail">@Model.SupervisorEmail</a>
+                        </p>
+                    </div>
+                }
+
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <a href="/StudentProjects/Index" class="btn btn-secondary">Back to Projects</a>
+                    @if (Model.Status == "Pending" || Model.Status == "UnderReview")
+                    {
+                        <a href="/StudentProjects/Edit/@Model.Id" class="btn btn-primary">Edit Project</a>
+                        <form method="post" asp-action="Withdraw" asp-route-id="@Model.Id" style="display:inline;">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to withdraw this project?');">
+                                Withdraw Project
+                            </button>
+                        </form>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card mt-4">
+            <div class="card-header">
+                <h5 class="mb-0">Match Information</h5>
+            </div>
+            <div class="card-body">
+                @if (Model.TotalMatches == 0)
+                {
+                    <p class="text-muted">No supervisors have expressed interest yet.</p>
+                }
+                else if (Model.Status == "Matched")
+                {
+                    <p class="text-success">✓ Matched with a supervisor</p>
+                    <p>
+                        <strong>Supervisor:</strong> @Model.SupervisorName
+                    </p>
+                }
+                else
+                {
+                    <p>
+                        <strong>Interest Expressed:</strong> @Model.TotalMatches supervisor(s)
+                    </p>
+                    <small class="text-muted">Awaiting confirmation...</small>
+                }
+            </div>
+        </div>
+    </div>
+</div>
